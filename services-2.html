@@ -22,163 +22,83 @@
 <body>
     <!--==================== Header ====================-->
     <!-- top bar -->
-    <section>
+    <div class="top-bar-style2">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="top-bar">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-12">
-                                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="#"></a>
-                            </div>
-                            <div class="col-md-9 d-flex align-items-end">
-                                <ul class="ml-auto">
-                                    <li>
-                                        <img src="images/mail-icon.png" alt="#">
-                                        <div>
-                                            <span>Mail us</span>
-                                            <h4>info@medenin</h4>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src="images/call-icon.png" alt="#">
-                                        <div>
-                                            <span>Toll Free</span>
-                                            <h4>+123 456 7890</h4>
-                                        </div>
-                                    </li>
-                                    <li class="appointment-btn">
-                                        <a href="appointment.html" class="btn btn-primary">Make Appointment</a>
-                                        <i class="fas fa-search"></i>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-4">
+                    <ul class="topbar-social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-8 d-flex justify-content-end">
+                    <ul class="topbar-contact ml-auto" style="display: flex;align-items: center;">
+                        <li>info@medenin.com</li>
+                        <li>+123 456 7890</li>
+                        <!-- <li><a href="appointment.html" class="btn btn-success">Make Appointment</a></li> -->
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
-    <!--//End top bar -->
-    <div class="light nav-big">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Nav menu -->
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Nav menu -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="#" /></a>
+                    <button class="navbar-toggler nav-custome1" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle
+                                        navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto nav-sub">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Home <i class="fas fa-plus"></i>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown">
+                                    Home
                                 </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="index.html">Home Page One</a>
-                                        <a class="dropdown-item" href="index-2.html">Home Page Two</a>
-                                        <a class="dropdown-item" href="index-3.html">Home Page Three</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Department <i class="fas fa-plus"></i>
+    
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Insights <i class="fas fa-plus"></i>
                                 </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="services.html">Dental Care</a>
-                                        <a class="dropdown-item" href="services-2.html">Cardiology</a>
-                                        <a class="dropdown-item" href="services-3.html">Neurology </a>
-                                        <a class="dropdown-item" href="services-detail.html">Eye Care</a>
-                                    </div>
-                                </li>
-                                        <!-- Sub Menu -->
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
-                                                aria-haspopup="true" aria-expanded="false">
-                                                Patients <i class="fas fa-plus"></i>
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
-                                                        aria-haspopup="true" aria-expanded="false" href="#">Services <i class="fas fa-plus"></i></a>
-                                                    <ul class="dropdown-menu dropdown-menu1">
-                                                        <li><a class="dropdown-item" href="services.html">Services
-                                                                One</a></li>
-                                                        <li><a class="dropdown-item" href="services-2.html">Services
-                                                                Two</a></li>
-                                                        <li><a class="dropdown-item" href="services-3.html">Services
-                                                                Three</a></li>
-                                                                <li><a class="dropdown-item" href="services-detail.html">Service
-                                                                    Detail</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="dropdown-item" href="appointment.html">Appointment</a>
-                                                </li>
-                                                <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
-                                                        aria-haspopup="true" aria-expanded="false" href="#">Our Doctors <i class="fas fa-plus"></i></a>
-                                                    <ul class="dropdown-menu dropdown-menu1">
-                                                        <li><a class="dropdown-item" href="doctors.html">Doctors One</a></li>
-                                                        <li><a class="dropdown-item" href="doctors-2.html">Doctors Two</a></li>
-                                                        <li><a class="dropdown-item" href="doctors-3.html">Doctors Three</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="dropdown-item" href="pricing.html">Pricing</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <!--//End Sub Menu -->
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3"
-                                                role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false"> Blog <i class="fas fa-plus"></i> </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="blog-standard.html">Blog Stadared</a>
-                                                <a class="dropdown-item" href="blog-list.html">Blog List</a>
-                                                <a class="dropdown-item" href="blog-grid.html">Blog Grid</a>
-                                                <a class="dropdown-item" href="blog-grid-2.html">Blog Grid-2</a>
-                                                <a class="dropdown-item" href="blog-details.html">Blog Details</a>
-                                            </div>
-                                        </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    pages <i class="fas fa-plus"></i>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="blog-grid.html">Case Studies</a>
+                                    <a class="dropdown-item" href="blog-grid.html">White Papers</a>
+                                </div>
+                            </li>
+                            <!-- Sub Menu -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="services-2.html">
+                                    Services
                                 </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="about.html">About</a>
-                                        <a class="dropdown-item" href="contact-us.html">Contact One</a>
-                                        <a class="dropdown-item" href="contact-us-2.html">Contact Two</a>
-                                        <a class="dropdown-item" href="error.html">Error 404</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <ul class="nav-icon-wrap">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
-                                </li>
-                                <li class="nav-item cart-seperate">
-                                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart fa-top-search"></i> <span>2</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fas fa-bars"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                    <!--//End Nav menu -->
-                </div>
+    
+                            </li>
+                            <!--//End Sub Menu -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="blog-grid.html" id="navbarDropdown3"> Blog </a>
+    
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown4">
+                                    About us
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="contact-us.html" id="navbarDropdown4">
+                                    Contact us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!--//End Nav menu -->
             </div>
         </div>
     </div>
@@ -215,34 +135,38 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex flex-fill flex-column">
                     <div class="service-box2">
                         <img src="images/008-implant.svg" class="service-box2-img" alt="#">
-                        <h3>Implant Dentistry</h3>
-                        <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-                        <a href="#">READ MORE</a>
+                        <h3>Clinical Data management</h3>
+                        <p>Services related to the collection, processing, validation, and analysis of clinical trial data
+                            in compliance with
+                            industry standards and regulations. </p>
+                        <!-- <a href="#">READ MORE</a> -->
                         <div class="service-box2-bg">
                             <img src="images/service-box-bg.png" class="img-fluid w-100" alt="#">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex flex-fill flex-column">
                     <div class="service-box2">
                         <img src="images/009-teeth.svg" class="service-box2-img" alt="#">
-                        <h3>Cosmetic Dentistry</h3>
-                        <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-                        <a href="#">READ MORE</a>
+                        <h3>Clinical Research</h3>
+                        <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut
+                            labore </p>
+                        <!-- <a href="#">READ MORE</a> -->
                         <div class="service-box2-bg">
                             <img src="images/service-box-bg.png" class="img-fluid w-100" alt="#">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex flex-fill flex-column">
                     <div class="service-box2">
                         <img src="images/tooth.svg" class="service-box2-img" alt="#">
-                        <h3>Root Canals</h3>
-                        <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-                        <a href="#">READ MORE</a>
+                        <h3>Pharmacovigilance</h3>
+                        <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut
+                            labore </p>
+                        <!-- <a href="#">READ MORE</a> -->
                         <div class="service-box2-bg">
                             <img src="images/service-box-bg.png" class="img-fluid w-100" alt="#">
                         </div>
@@ -250,34 +174,81 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex flex-fill flex-column">
                     <div class="service-box2">
                         <img src="images/dental.svg" class="service-box2-img" alt="#">
-                        <h3>Dental Cleaning</h3>
-                        <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-                        <a href="#">READ MORE</a>
+                        <h3>Medical Writing</h3>
+                        <p>Services related to the development of various medical documents, such as clinical study reports,
+                            regulatory
+                            submissions, research papers, Scientific abstracts and scientific manuscripts. </p>
+                        <!-- <a href="#">READ MORE</a> -->
                         <div class="service-box2-bg">
                             <img src="images/service-box-bg.png" class="img-fluid w-100" alt="#">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex flex-fill flex-column">
                     <div class="service-box2">
                         <img src="images/teeth.svg" class="service-box2-img" alt="#">
-                        <h3>Teeth Whitening</h3>
-                        <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-                        <a href="#">READ MORE</a>
+                        <h3>Regulatory Writing</h3>
+                        <p>Services related to the preparation of regulatory documents, including clinical study reports,
+                            investigational new drug
+                            applications, and marketing authorization applications. </p>
+                        <!-- <a href="#">READ MORE</a> -->
                         <div class="service-box2-bg">
                             <img src="images/service-box-bg.png" class="img-fluid w-100" alt="#">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex flex-fill flex-column">
                     <div class="service-box2">
                         <img src="images/gums.svg" class="service-box2-img" alt="#">
-                        <h3>Teeth Fillings</h3>
-                        <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-                        <a href="#">READ MORE</a>
+                        <h3>Training and Development</h3>
+                        <p>Services related to the development and delivery of training programs in various areas of
+                            pharmaceuticals, such as
+                            pharmacovigilance, clinical research, and medical writing and medical communications. </p>
+                        <!-- <a href="#">READ MORE</a> -->
+                        <div class="service-box2-bg">
+                            <img src="images/service-box-bg.png" class="img-fluid w-100" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 d-flex flex-fill flex-column">
+                    <div class="service-box2">
+                        <img src="images/dental.svg" class="service-box2-img" alt="#">
+                        <h3>Drug Safety and Pharmacovigilance</h3>
+                        <p>Services related to the collection, analysis, and monitoring of data related to drug safety,
+                            including adverse drug
+                            reactions (ADRs) and other safety concerns. </p>
+                        <!-- <a href="#">READ MORE</a> -->
+                        <div class="service-box2-bg">
+                            <img src="images/service-box-bg.png" class="img-fluid w-100" alt="#">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-fill flex-column">
+                    <div class="service-box2">
+                        <img src="images/teeth.svg" class="service-box2-img" alt="#">
+                        <h3>Medical and Scientific Writing</h3>
+                        <p>Services related to the development of various medical documents, such as clinical study reports,
+                            regulatory
+                            submissions, research papers, Scientific abstracts and scientific manuscripts.</p>
+                        <!-- <a href="#">READ MORE</a> -->
+                        <div class="service-box2-bg">
+                            <img src="images/service-box-bg.png" class="img-fluid w-100" alt="#">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-fill flex-column">
+                    <div class="service-box2">
+                        <img src="images/gums.svg" class="service-box2-img" alt="#">
+                        <h3>Skill Development</h3>
+                        <p>Services related to enhancing the skills and knowledge of pharmaceutical professionals in various
+                            areas of the industry,
+                            such as drug safety, clinical research, and regulatory affairs. </p>
+                        <!-- <a href="#">READ MORE</a> -->
                         <div class="service-box2-bg">
                             <img src="images/service-box-bg.png" class="img-fluid w-100" alt="#">
                         </div>
@@ -288,7 +259,7 @@
     </section>
     <!--//End Services2 -->
     <!--==================== Appointment ====================-->
-    <section class="space background-bg4">
+    <!-- <section class="space background-bg4">
         <div class="container container-custom">
             <div class="row">
                 <div class="col-md-12 col-lg-6">
@@ -396,10 +367,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--//End Appointment -->
     <!--==================== Pricing ====================-->
-    <section class="space">
+    <!-- <section class="space">
         <div class="container container-custom">
             <div class="row">
                 <div class="col-md-6">
@@ -484,7 +455,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--//End Pricing -->
     <!--==================== Testimonial Style 2 ====================-->
     <div>
@@ -580,7 +551,7 @@
                         <img src="images/counter1.png" alt="#">
                         <div class="counter-text">
                             <h2>60+</h2>
-                            <p>Expert Doctors</p>
+                            <p>Expert Team</p>
                         </div>
                     </div>
                 </div>
@@ -589,7 +560,7 @@
                         <img src="images/counter2.png" alt="#">
                         <div class="counter-text">
                             <h2>1000+</h2>
-                            <p>Happy Patients</p>
+                            <p>Happy Clients</p>
                         </div>
                     </div>
                 </div>
@@ -602,11 +573,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-items-center justify-content-end">
+                <!-- <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-items-center justify-content-end">
                     <div class="counter-btn_block">
                         <a href="#" class="btn btn-success">BOOK NOW</a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -682,9 +653,9 @@
                 </div>
                 <div class="col-md-4 col-lg-2 offset-lg-1">
                     <div class="foot-link-box footlink-box_btn">
-                        <a href="#" class="btn btn-outline-success">Find a Doctor</a>
+                        <!-- <a href="#" class="btn btn-outline-success">Find a Doctor</a>
                         <a href="#" class="btn btn-outline-success">Career</a>
-                        <a href="#" class="btn btn-outline-success">Newsletter</a>
+                        <a href="#" class="btn btn-outline-success">Newsletter</a> -->
                         <ul>
                             <li>
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>

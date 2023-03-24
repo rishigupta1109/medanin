@@ -24,163 +24,83 @@
 <body>
     <!--==================== Header ====================-->
     <!-- top bar -->
-    <section>
+    <div class="top-bar-style2">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="top-bar">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-12">
-                                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="#"></a>
-                            </div>
-                            <div class="col-md-9 d-flex align-items-end">
-                                <ul class="ml-auto">
-                                    <li>
-                                        <img src="images/mail-icon.png" alt="#">
-                                        <div>
-                                            <span>Mail us</span>
-                                            <h4>info@medenin</h4>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src="images/call-icon.png" alt="#">
-                                        <div>
-                                            <span>Toll Free</span>
-                                            <h4>+123 456 7890</h4>
-                                        </div>
-                                    </li>
-                                    <li class="appointment-btn">
-                                        <a href="appointment.html" class="btn btn-primary">Make Appointment</a>
-                                        <i class="fas fa-search"></i>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-4">
+                    <ul class="topbar-social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-8 d-flex justify-content-end">
+                    <ul class="topbar-contact ml-auto" style="display: flex;align-items: center;">
+                        <li>info@medenin.com</li>
+                        <li>+123 456 7890</li>
+                        <!-- <li><a href="appointment.html" class="btn btn-success">Make Appointment</a></li> -->
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
-    <!--//End top bar -->
-    <div class="light nav-big">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Nav menu -->
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto nav-sub">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Home <i class="fas fa-plus"></i>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="index.html">Home Page One</a>
-                                        <a class="dropdown-item" href="index-2.html">Home Page Two</a>
-                                        <a class="dropdown-item" href="index-3.html">Home Page Three</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Department <i class="fas fa-plus"></i>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="services.html">Dental Care</a>
-                                        <a class="dropdown-item" href="services-2.html">Cardiology</a>
-                                        <a class="dropdown-item" href="services-3.html">Neurology </a>
-                                        <a class="dropdown-item" href="services-detail.html">Eye Care</a>
-                                    </div>
-                                </li>
-                                        <!-- Sub Menu -->
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
-                                                aria-haspopup="true" aria-expanded="false">
-                                                Patients <i class="fas fa-plus"></i>
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
-                                                        aria-haspopup="true" aria-expanded="false" href="#">Services <i class="fas fa-plus"></i></a>
-                                                    <ul class="dropdown-menu dropdown-menu1">
-                                                        <li><a class="dropdown-item" href="services.html">Services
-                                                                One</a></li>
-                                                        <li><a class="dropdown-item" href="services-2.html">Services
-                                                                Two</a></li>
-                                                        <li><a class="dropdown-item" href="services-3.html">Services
-                                                                Three</a></li>
-                                                                <li><a class="dropdown-item" href="services-detail.html">Service
-                                                                    Detail</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="dropdown-item" href="appointment.html">Appointment</a>
-                                                </li>
-                                                <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"
-                                                        aria-haspopup="true" aria-expanded="false" href="#">Our Doctors <i class="fas fa-plus"></i></a>
-                                                    <ul class="dropdown-menu dropdown-menu1">
-                                                        <li><a class="dropdown-item" href="doctors.html">Doctors One</a></li>
-                                                        <li><a class="dropdown-item" href="doctors-2.html">Doctors Two</a></li>
-                                                        <li><a class="dropdown-item" href="doctors-3.html">Doctors Three</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="dropdown-item" href="pricing.html">Pricing</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <!--//End Sub Menu -->
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3"
-                                                role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false"> Blog <i class="fas fa-plus"></i> </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="blog-standard.html">Blog Stadared</a>
-                                                <a class="dropdown-item" href="blog-list.html">Blog List</a>
-                                                <a class="dropdown-item" href="blog-grid.html">Blog Grid</a>
-                                                <a class="dropdown-item" href="blog-grid-2.html">Blog Grid-2</a>
-                                                <a class="dropdown-item" href="blog-details.html">Blog Details</a>
-                                            </div>
-                                        </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        pages <i class="fas fa-plus"></i>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="about.html">About</a>
-                                        <a class="dropdown-item" href="contact-us.html">Contact One</a>
-                                        <a class="dropdown-item" href="contact-us-2.html">Contact Two</a>
-                                        <a class="dropdown-item" href="error.html">Error 404</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <ul class="nav-icon-wrap">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
-                                </li>
-                                <li class="nav-item cart-seperate">
-                                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart fa-top-search"></i> <span>2</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fas fa-bars"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                    <!--//End Nav menu -->
-                </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Nav menu -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="#" /></a>
+                    <button class="navbar-toggler nav-custome1" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle
+                                    navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" >
+                                    Home
+                                </a>
+    
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Insights <i class="fas fa-plus"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="blog-grid.html">Case Studies</a>
+                                    <a class="dropdown-item" href="blog-grid.html">White Papers</a>
+                                </div>
+                            </li>
+                            <!-- Sub Menu -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="services-2.html">
+                                    Services
+                                </a>
+    
+                            </li>
+                            <!--//End Sub Menu -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="blog-grid.html" id="navbarDropdown3"> Blog </a>
+    
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown4">
+                                    About us
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="contact-us.html" id="navbarDropdown4">
+                                    Contact us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!--//End Nav menu -->
             </div>
         </div>
     </div>
@@ -223,45 +143,64 @@
                                         <span>PLAY VIDEO</span>
                                     </div>
                                 </a>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="facilities blue">
+                                            <h3>1000+</h3>
+                                            <span>Happy Clients</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="facilities green">
+                                            <h3>215+</h3>
+                                            <span>Expert Team</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="facilities yellow">
+                                            <h3>315+</h3>
+                                            <span>Hospital Rooms</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="facilities gray">
+                                            <h3>106+</h3>
+                                            <span>Award Winner</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-md-12 col-lg-6">
                                 <div class="video-play-text">
-                                    <h2>Short Story About Mededin Clinic.</h2>
+                                    <h2>Our Philosophy</h2>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                                    At Shanlitics, we believe in the power of technology to drive positive change and transform businesses and communities.
+                                    We are passionate about creating innovative solutions that help our clients thrive in a rapidly evolving digital
+                                    landscape.
                                     </p>
                                     <p>
-                                        Sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru
-                                        <a href="#">Readmore</a>
+                                    We believe that the key to success lies in building strong relationships with our clients, based on trust, transparency,
+                                    and mutual respect. We strive to be a reliable partner and trusted advisor to our clients, providing them with the
+                                    guidance and support they need to achieve their goals.
                                     </p>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="facilities blue">
-                                                <h3>1000+</h3>
-                                                <span>Happy Patients</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="facilities green">
-                                                <h3>215+</h3>
-                                                <span>Expert Doctors</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="facilities yellow">
-                                                <h3>315+</h3>
-                                                <span>Hospital Rooms</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="facilities gray">
-                                                <h3>106+</h3>
-                                                <span>Award Winner</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <p>
+                                    We are committed to delivering exceptional value and impact to our clients' businesses, while maintaining the highest
+                                    standards of quality and integrity. We believe that excellence is not just a goal, but a way of life, and we constantly
+                                    seek to improve and innovate in everything we do.
+                                    </p>
+                                    <p>
+
+                                    We are a team of passionate and dedicated professionals who share a common vision of creating a better future through
+                                    technology. We believe in working together, collaborating across disciplines and cultures, and leveraging our diverse
+                                    perspectives and experiences to create truly transformative solutions.
+                                    Our philosophy is rooted in the values of our founder, Shantanu Litoriya, who believed in the importance of excellence,
+                                    compassion, and respect. We honor his memory by embodying these values in everything we do and striving to make a
+                                    positive impact on the world through our work.
+
+                                    </p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -318,22 +257,28 @@
                 <div class="col-md-4">
                     <div class="mission-wrap">
                         <h3>Our Mission</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adi pisicing elit, sed do eius mod tempor incid idunt ut labore et dolore magna aliqua.</p>
-                        <a href="#">Read More</a>
+                        <p>Our mission at Shanlitics is to provide innovative and cost-effective solutions leveraging cutting-edge
+                        technology and the latest industry standards to help our clients achieve their strategic objectives and stay ahead of
+                        the competition.</p>
+                        <!-- <a href="#">Read More</a> -->
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="mission-wrap">
                         <h3>Our Vision</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adi pisicing elit, sed do eius mod tempor incid idunt ut labore et dolore magna aliqua.</p>
-                        <a href="#">Read More</a>
+                        <p> Our Vision at Shanlitics is to provide innovative and cost-effective solutions leveraging cutting-edge
+                        technology and the latest industry standards to help our clients achieve their strategic objectives and stay ahead of
+                        the competition.</p>
+                        <!-- <a href="#">Read More</a> -->
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="mission-wrap">
                         <h3>Our Values</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adi pisicing elit, sed do eius mod tempor incid idunt ut labore et dolore magna aliqua.</p>
-                        <a href="#">Read More</a>
+                        <p> Our Values at Shanlitics is to provide innovative and cost-effective solutions leveraging cutting-edge
+                        technology and the latest industry standards to help our clients achieve their strategic objectives and stay ahead of
+                        the competition.</p>
+                        <!-- <a href="#">Read More</a> -->
                     </div>
                 </div>
             </div>
@@ -341,130 +286,92 @@
     </section>
     <!--//End Our Mission -->
     <!--==================== Our Team ====================-->
-    <section class="our-team light space">
-        <div class="container container-custom">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="sub-title_center">
-                        <span>---- Our Team ----</span>
-                        <h2>Our Dedicated Doctors</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="doctors-slider">
-                        <div class="team-img_block yellow">
-                            <div class="team-img-socila-block">
-                                <img src="images/team1.jpg" class="img-fluid" alt="#" />
-                                <ul class="social-icons">
-                                    <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h4>Dr. Mary Joe</h4>
-                            <p>Cardiologist Specialist</p>
-                        </div>
-                        <div class="team-img_block green">
-                            <div class="team-img-socila-block">
-                                <img src="images/team2.jpg" class="img-fluid" alt="#" />
-                                <ul class="social-icons">
-                                    <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h4>Thomas Jack</h4>
-                            <p>Neurology Specialist</p>
-                        </div>
-                        <div class="team-img_block blue">
-                            <div class="team-img-socila-block">
-                                <img src="images/team3.jpg" class="img-fluid" alt="#" />
-                                <ul class="social-icons">
-                                    <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h4>Dr. Mary Joe</h4>
-                            <p>Cardiologist Specialist</p>
-                        </div>
-                        <div class="team-img_block yellow">
-                            <div class="team-img-socila-block">
-                                <img src="images/team4.jpg" class="img-fluid" alt="#" />
-                                <ul class="social-icons">
-                                    <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h4>Dr. Hessy Hanna</h4>
-                            <p>Radiology Specialist</p>
-                        </div>
-                        <div class="team-img_block blue">
-                            <div class="team-img-socila-block">
-                                <img src="images/team5.jpg" class="img-fluid" alt="#" />
-                                <ul class="social-icons">
-                                    <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h4>Dr. Mary Joe</h4>
-                            <p>Cardiologist Specialist</p>
-                        </div>
-                    </div>
+<section class="space">
+    <div class="container container-custom">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sub-title_center">
+                    <span>---- Our Team ----</span>
+                    <h2>Our Dedicated Team</h2>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="our-team-slider">
+                    <div class="docrtors-box1">
+                        <img src="images/team/op.png" style="height:200px;width:200px" class="img-fluid" alt="#">
+                        <h4>O P Litoriya</h4>
+                        <p>The Founder of Shanlitics</p>
+                        <!-- <a href="#" class="btn btn-success">VIEW MORE</a> -->
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        </ul>
+                        <div class="bg-shade">
+                            <img src="images/bg-shade.png" class="img-fluid" alt="#">
+                        </div>
+                    </div>
+                    <div class="docrtors-box1">
+                        <img src="images/team/suchitasharma.png" style="height:200px;width:200px" class="img-fluid"
+                            alt="#">
+                        <h4>Shuchita Sharma</h4>
+                        <p>The Co-Founder of Shanlitics</p>
+                        <!-- <a href="#" class="btn btn-success">VIEW MORE</a> -->
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        </ul>
+                        <div class="bg-shade">
+                            <img src="images/bg-shade.png" class="img-fluid" alt="#">
+                        </div>
+                    </div>
+                    <div class="docrtors-box1">
+                        <img src="images/team/drpandey.png" style="height:200px;width:200px" class="img-fluid" alt="#">
+                        <h4>Dr. Prashant Pandey</h4>
+                        <p>The Director of Medical Affairs </p>
+                        <!-- <a href="#" class="btn btn-success">VIEW MORE</a> -->
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        </ul>
+                        <div class="bg-shade">
+                            <img src="images/bg-shade.png" class="img-fluid" alt="#">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <!--//End Our Team -->
+    <section class="space">
+        <div class="container container-custom">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sub-title_center">
+                    <span>---- Our Clients ----</span>
+                    <h2>Our Clients</h2>
+                </div>
+            </div>
+        </div>
+        <div class="testi-slider-style2-nav">
+            <div><img src="images/client-logo1.png" class="img-fluid" alt="#"></div>
+            <div><img src="images/client-logo2.png" class="img-fluid" alt="#"></div>
+            <div><img src="images/client-logo1.png" class="img-fluid" alt="#"></div>
+            <div><img src="images/client-logo4.png" class="img-fluid" alt="#"></div>
+            <div><img src="images/client-logo5.png" class="img-fluid" alt="#"></div>
+        </div>
+
+    </div>
+</section>
     <!--==================== Testimonials ====================-->
     <section class="testimonial">
         <div class="container container-custom">
@@ -556,7 +463,7 @@
                         <img src="images/counter1.png" alt="#">
                         <div class="counter-text">
                             <h2>60+</h2>
-                            <p>Expert Doctors</p>
+                            <p>Expert Team</p>
                         </div>
                     </div>
                 </div>
@@ -565,7 +472,7 @@
                         <img src="images/counter2.png" alt="#">
                         <div class="counter-text">
                             <h2>1000+</h2>
-                            <p>Happy Patients</p>
+                            <p>Happy Clients</p>
                         </div>
                     </div>
                 </div>
@@ -578,10 +485,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-items-center justify-content-end">
+                <!-- <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-items-center justify-content-end">
                     <div class="counter-btn_block">
                         <a href="#" class="btn btn-success">BOOK NOW</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -658,9 +565,9 @@
                 </div>
                 <div class="col-md-4 col-lg-2 offset-lg-1">
                     <div class="foot-link-box footlink-box_btn">
-                        <a href="#" class="btn btn-outline-success">Find a Doctor</a>
+                        <!-- <a href="#" class="btn btn-outline-success">Find a Doctor</a>
                         <a href="#" class="btn btn-outline-success">Career</a>
-                        <a href="#" class="btn btn-outline-success">Newsletter</a>
+                        <a href="#" class="btn btn-outline-success">Newsletter</a> -->
                         <ul>
                             <li>
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
